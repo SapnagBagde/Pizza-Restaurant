@@ -116,8 +116,8 @@ img, svg {
 
 
 #home .home-banner{
-  padding-top: 75px;
-  margin-left: 65px;
+  /* padding-top: 75px;
+  margin-left: 65px; */
   /* background-image: url(./images/banner/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -443,29 +443,23 @@ font-weight: bold;
   font-size: 30px;
   color: #fff;
   font-weight: bold;
-  /* margin: 60px 0px;
-  padding-top: 30px; */
+ 
   border-bottom: 2px solid #f00;
 }
 #gallery .card{
-  /* border-radius: 10px; */
+ 
   background-color: #000;
-  /* transition: 0.5s;
-  cursor: pointer; */
+ 
 }
-
-/* #gallery .card:hover{
-  transform: translateY(-10px);
-
-} */
 
 #gallery .card img{
   height: 30vh;
   border: 1px solid rgb(241 133 133);
   border-radius: 5px;
   width: 100%;
-  /* border-radius: 10px; */
+
 }
+
 
 
 
