@@ -2,9 +2,7 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
-  font-family: 'Rethink Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -17,6 +15,7 @@
 body{
   background-color: #000;
 }
+
 
 
 .title{
@@ -39,21 +38,6 @@ body{
   background-color: #000;
 
 }
-
-
- img{
-  /* border-radius: 10px; */
-  /* margin-left: 40px; */
-  /* margin: 0px 25px;
-  width: 100%; */
-}
-
-/* #logo img{
-  width: 2%;
-  margin-left: 35px;
-} */
-
-
 
 img, svg {
   vertical-align: middle;
@@ -97,57 +81,35 @@ img, svg {
 
 
 /* home */
-#home{
-  width: 100%;
-  height: 100vh;
-  background-image: url(./images/banner/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: 88% ; */
-  /* background-position: center; */
 
-  /* filter: brightness(.6); */
+  #home{
+    background: url(./images/banner/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 
-  /* object-fit: cover;
-  filter: brightness(.4); */
+  }
 
-}
+  #home h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
 
-
-
-#home .home-banner{
-  /* padding-top: 75px;
-  margin-left: 65px; */
-  /* background-image: url(./images/banner/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(.4);  */
-}
-
-#home .home-banner h3{
-  font-size: 50px;
-  font-weight: bold;
-  color: #fff;
-}
-
-#home .home-banner p{
-  margin-top: 17px;
-  font-size: 20px;
-  line-height: 30px;
-  color: #fff;
-  width: 15%;
-}
+  #home p{
+    margin-top: 17px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    width: 50%;
+  }
 
 
-#home .home-banner .botton-line{
-  width: 18%;
-  height: 10px;
-  margin-top: 10px;
-  background-color: #f00;
-}
-
-
-
+  #home .botton-line {
+    background-color: #f00;
+    width: 40%;
+    height: 1vh;
+  }
 
 /* about-us */
 
@@ -211,17 +173,20 @@ img, svg {
 
 
 
-/* @media screen and (max-width:992){
+@media screen and (max-width:982){
+  #about-us p{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:766){
   #about-us p{
     font-size: 10px;
   }
-}
-@media screen and (max-width:768){
-  #about-us p{
+  #about-us {
    height: 120vh;
   }
 
-} */
+}
 
 
 /* menu */
@@ -591,6 +556,23 @@ font-weight: bold;
 }
 
 
+
+@media screen and (max-width:2560){
+  #contact iframe {
+    width:524px;
+  }
+}
+@media screen and (max-width:425){
+   iframe {
+   width:400px;
+  }
+}
+@media screen and (max-width:375){
+   iframe {
+    width:350px;
+  }
+
+}
 
 #footer{
   width: 100%;
