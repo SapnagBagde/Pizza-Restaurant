@@ -111,6 +111,69 @@ img, svg {
     height: 1vh;
   }
 
+
+  @media screen and (max-width:786px){
+    #home p{
+      width: 55%;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    #home h3{
+      font-size: 40px;
+      line-height: 55px;
+    }
+    #home .botton-line{
+      height: 8px;
+    }
+
+  }
+  @media screen and (max-width:425px){
+    #home p{
+      width: 45%;
+    line-height: 25px;
+    font-size: 13px;
+    }
+    #home h3{
+      font-size: 35px;
+      line-height: 45px;
+    }
+    #home .botton-line{
+      height: 8px;
+    }
+  }
+
+
+
+  @media screen and (max-width:375px){
+    #home p{
+      font-size: 6px;
+      width: 86%;
+    }
+    #home h3{
+      font-size: 10px;
+      line-height: 18px;
+    }
+    #home .botton-line{
+      height: 8px;
+    }
+  }
+
+
+
+  @media screen and (max-width:320px){
+    #home p{
+      font-size: 15px;
+      width: 66%;
+    }
+    #home h3{
+      font-size: 25px;
+      line-height: 35px; 
+    }
+    #home .botton-line{
+      height: 8px;
+    }
+  }
+
 /* about-us */
 
 
@@ -173,17 +236,21 @@ img, svg {
 
 
 
-@media screen and (max-width:982){
+
+
+@media screen and (max-width:982px){
   #about-us p{
     font-size: 8px;
   }
 }
-@media screen and (max-width:766){
+@media screen and (max-width:766px){
   #about-us p{
     font-size: 10px;
+    /* height: 280vh; */
   }
   #about-us {
-   height: 120vh;
+    height: 120vh;
+    
   }
 
 }
@@ -333,7 +400,7 @@ font-weight: bold;
   border-radius: 10px;
   background-color: #000;
   transition: 0.3s;    
-   cursor: pointer;
+  cursor: pointer;
 }
 
 #product .card:hover{
@@ -557,21 +624,43 @@ font-weight: bold;
 
 
 
-@media screen and (max-width:2560){
+@media screen and (max-width:2560px){
   #contact iframe {
-    width:524px;
+    width:647px;
   }
 }
-@media screen and (max-width:425){
-   iframe {
-   width:400px;
+@media screen and (max-width:1024px){
+  #contact iframe {
+    width:464px;
+  }
+  #contact .controls .row{
+
   }
 }
-@media screen and (max-width:375){
-   iframe {
-    width:350px;
+@media screen and (max-width:768px){
+  #contact iframe {
+    width:338px;
+    height: 270px;
+  }
+  #contact .controls {
+    width: 100%;
   }
 
+}
+@media screen and (max-width:425px){
+  #contact iframe {
+  width:349px;
+  }
+}
+@media screen and (max-width:375px){
+  #contact iframe {
+  width:260px ;  
+  }
+}
+@media screen and (max-width:320px){
+  #contact iframe {
+    width:293px;
+  }
 }
 
 #footer{
