@@ -99,7 +99,12 @@
       height: 120vh;
       
     }
-
+    .about-btn{
+      font-size: 8px;
+      width: 35%;
+      height: 8%;
+      margin-bottom: 10px;
+    }
   }
 
 
@@ -208,5 +213,9 @@
       position: relative
       top: 320px;
     } */
+
+    #footer .copyright {
+      margin-top: 2px !important;
+  }
   }
 }
